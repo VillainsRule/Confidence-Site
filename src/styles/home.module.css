@@ -1,0 +1,104 @@
+.botIntro {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botName {
+    font-family: 'Titan One';
+    font-size: 7em;
+    text-shadow: 15px 15px rgba(0, 0, 0, 0.25);
+}
+
+.botName:hover {
+    animation: 0.8s linear infinite idk;
+}
+
+@keyframes idk {
+    0% {
+        transform: scale(1);
+    }
+
+    15% {
+        transform: scale(1.15);
+    }
+
+    30% {
+        transform: scale(1);
+    }
+
+    45% {
+        transform: scale(1.15);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+}
+
+.botDesc {
+    font-size: 2em;
+    margin-top: 3vh;
+}
+
+.tryButton {
+    margin-top: 5vh;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid white;
+    width: 30%;
+    font-weight: 800;
+    border-radius: 5px;
+    font-size: 1.75em;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all .2s;
+}
+
+.tryButton:hover {
+    background-color: white;
+    color: #301f5b; 
+}
+
+.disclaimer {
+    font-size: 10px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+    .botName {
+        font-size: 5em;
+    }
+
+    .botDesc {
+        font-size: 1.65em;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .botName {
+        font-size: 4em;
+    }
+
+    .botDesc {
+        font-size: 1.45em;
+    }
+
+    .disclaimer {
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+}

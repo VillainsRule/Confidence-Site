@@ -1,0 +1,50 @@
+.article {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    overflow: auto;
+    display: inline-block;
+    height: 75%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.article::-webkit-scrollbar {
+    display: none;
+}
+
+.wikiLink {
+    color: white;
+}
+
+.articleTitle {
+    font-family: 'Titan One';
+    text-align: center;
+    font-size: 3em;
+}
+
+.articleHeader {
+    text-align: center;
+    font-size: 1.55em;
+    margin: 5vw 0 1vw 0;
+    font-weight: 800;
+}
+
+.articleContent {
+    margin-top: 20px;
+    font-size: 1.25em;
+}
+
+.centerContent {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.25em;
+}
+
+.articleList {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.4vh;
+}

@@ -1,0 +1,20 @@
+{
+  "_rPUIZmBN.js": {
+    "file": "rPUIZmBN.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "index.html": {
+    "css": [
+      "o-uYXmRd.css"
+    ],
+    "file": "aKd8ljG2.js",
+    "imports": [
+      "_rPUIZmBN.js",
+      "index.html"
+    ],
+    "isEntry": true,
+    "src": "index.html"
+  }
+}

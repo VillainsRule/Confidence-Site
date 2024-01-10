@@ -1,0 +1,103 @@
+.main {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    overflow: auto;
+    display: inline-block;
+    height: 75%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+.commandsHead {
+    font-size: 2em;
+    font-family: 'Titan One';
+}
+
+.commandCategories {
+    margin-top: 15px;
+    display: flex;
+    gap: 25px;
+    border-bottom: 1px solid white;
+    font-size: 1.25em;
+}
+
+.category {
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.category:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 13px;
+}
+
+.bottomContent {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.commandList {
+    display: grid;
+    gap: 10px;
+    width: calc(35% - 10px);
+}
+
+.commandItem {
+    text-align: center;
+    background: #1c152e;
+    width: 100%;
+    padding: 2vh 0;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.commandInfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #1c152e;
+    border-radius: 10px;
+    width: calc(65% - 10px - 6vw);
+    padding: 2vh 3vw;
+}
+
+.commandName {
+    font-size: 2em;
+    font-family: 'Titan One';
+}
+
+.commandFunction {
+    font-size: 1.15em;
+}
+
+.divider {
+    width: 70%;
+    border-bottom: 1px solid white;
+    margin: 2.5vh 0 2vh 0;
+    border-radius: 5px;
+}
+
+.extraInfo {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 3vh;
+    font-size: 2.7vh;
+}
+
+.infoData {
+    font-size: 2.5vh;
+}
+
+.smallNote {
+    font-size: 2vh;
+    margin-top: 4vh;
+}

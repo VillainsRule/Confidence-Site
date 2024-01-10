@@ -1,0 +1,39 @@
+.ruleContent {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    overflow: auto;
+    display: inline-block;
+    height: 75%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.ruleContent::-webkit-scrollbar {
+    display: none;
+}
+
+.rulesHeader {
+    font-family: 'Titan One';
+    text-align: center;
+    font-size: 3em;
+}
+
+.rulesInfo {
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.ruleHeader {
+    font-size: 1.65em;
+    text-align: center;
+    margin-top: 7vh;
+    margin-bottom: 5px;
+}
+
+.rulesEnding {
+    text-align: center;
+    margin-top: 9vh;
+    font-size: 1.2em;
+}
